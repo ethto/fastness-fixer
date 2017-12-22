@@ -1,6 +1,6 @@
 /*
   Gridifier || Code released under the UNLICENSE
-  https://gridifier.web-dev.tools/#xs,1,0,0,0;s,1,25,0,0;m,2,38,0,0
+  https://gridifier.web-dev.tools/#xs,2,0,0,0;s,2,25,0,0;m,2,38,0,0
 */
 
 .grid {
@@ -59,55 +59,6 @@
 [class*="unit-push-"],
 [class*="unit-pull-"] {
   position: relative;
-}
-
-.unit-content-distribute {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
-
-.unit-content-center,
-.unit-content-center-vertical {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: column wrap;
-  -ms-flex-direction: column wrap;
-  flex-flow: column wrap;
-}
-
-.unit-content-center-horizontal {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: row wrap;
-  -ms-flex-direction: row wrap;
-  flex-flow: row wrap;
 }
 
 .content-fill,
@@ -177,70 +128,6 @@
   display: flex;
 }
 
-.unit-xs-content-distribute,
-.xs-content-distribute {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-direction: column;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-}
-
-.unit-xs-content-center,
-.unit-xs-content-center-vertical {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: column wrap;
-  -ms-flex-direction: column wrap;
-  flex-flow: column wrap;
-}
-
-.unit-xs-content-center-horizontal {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -webkit-flex-direction: row wrap;
-  -ms-flex-direction: row wrap;
-  flex-flow: row wrap;
-}
-
-.xs-content-fill,
-.xs-content-stretch {
-  -ms-flex-grow: 2;
-  -webkit-flex-grow: 2;
-  flex-grow: 2;
-  max-width: 100%; /* @bugfix: IE 10, 11 */
-}
-
-.xs-content-shrink {
-  -ms-align-self: center;
-  -webkit-align-self: center;
-  align-self: center;
-}
-
 @media only screen and (min-width: 25em) {
 
   .unit-s-hidden,
@@ -296,71 +183,6 @@
     display: flex;
   }
 
-  .unit-s-content-distribute,
-  .s-content-distribute {
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-direction: column;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-  }
-
-  .unit-s-content-center,
-  .unit-s-content-center-vertical {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-flex-direction: column wrap;
-    -ms-flex-direction: column wrap;
-    flex-flow: column wrap;
-  }
-
-  .unit-s-content-center-horizontal {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-align-content: center;
-    -ms-flex-line-pack: center;
-    align-content: center;
-    -webkit-flex-direction: row wrap;
-    -ms-flex-direction: row wrap;
-    flex-flow: row wrap;
-  }
-
-  .s-content-fill,
-  .s-content-stretch {
-    -ms-flex-grow: 2;
-    -webkit-flex-grow: 2;
-    flex-grow: 2;
-    max-width: 100%; /* @bugfix: IE 10, 11 */
-  }
-
-  .s-content-shrink {
-    -ms-align-self: center;
-    -webkit-align-self: center;
-    align-self: center;
-  }
-
-}
 
 @media only screen and (min-width: 38em) {
 

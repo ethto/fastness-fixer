@@ -3,6 +3,10 @@ h2 {
   font-family: "Delius Unicase", sans-serif;
 }
 
+h1 {
+  display: inline;
+}
+
 h2 {
   color: #93612c;
 }
@@ -21,7 +25,6 @@ h2 {
 
 .logo {
   width: 64px;
-}
 
 .banner-content {
   color: #fff;
